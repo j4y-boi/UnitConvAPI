@@ -130,7 +130,7 @@ def bulkconvert():
 
         # gotta have the S T R U C T U R E
         if "conversions" not in data:
-            return jsonify({"error": "'conversions' field is required."}), 400
+            return jsonify({"error": "Whoops! You forgot the 'conversions' part..."}), 400
 
         conversions = data["conversions"]
         results = []
@@ -140,7 +140,7 @@ def bulkconvert():
 
         for conv in conversions:
             if "amount" not in conv or "from_unit" not in conv or "to_units" not in conv:
-                results.append({"error": "Each conversion must include 'amount', 'from_unit', and 'to_units'."})
+                results.append({"error": "Uh oh! Each conversion must include 'amount', 'from_unit', and 'to_units'."})
                 continue
 
             amount = conv["amount"]

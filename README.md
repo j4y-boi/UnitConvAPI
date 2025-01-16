@@ -4,6 +4,8 @@ An API written in Python to convert between freedom units and European units!
 ## Docs
 ### API Endpoints:
 
+- **GET /docs**: redirects you to here
+
 - **GET /miles_kilometer**: converts between miles and kilometers
   ```
   Arguments:

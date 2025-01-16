@@ -118,3 +118,9 @@ An API written in Python to convert between freedom units and European units!
       ]
     }
   ```
+
+## License
+```
+UnitConv API is licensed under the GPL-3.0 license.
+You can find a copy of the license in the repo.
+```

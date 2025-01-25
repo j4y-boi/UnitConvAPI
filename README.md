@@ -1,11 +1,9 @@
-### Due to issues with nest, we're temporarily stuck with a weird URL.
-
 # UnitConvAPI
-An API written in Python to convert between freedom units and European units!
+An API written in Python to convert between freedom units and European units!  
+**Access the API [here](https://unitconvapi.j4y-boi.hackclub.app/)**
 
 ## Docs
 ### API Endpoints:
-
 - **GET /docs**: redirects you to here
 
 - **GET /miles_kilometer**: converts between miles and kilometers

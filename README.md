@@ -85,7 +85,7 @@ An API written in Python to convert between freedom units and European units!
         },
         {
           "amount": 100,
-          "from_unit": "meters",
+          "from_unit": "meter",
           "to_units": ["feet", "miles"]
         },
         {
